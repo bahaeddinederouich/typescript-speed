@@ -1,0 +1,124 @@
+:root{
+    --maincolor: blue;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.game{
+    background-color: #eee;
+    min-height: 100vh;
+}
+.name{
+    background-color: rgba(0, 0, 255, 0.472);
+    /* text-align: center; */
+display: flex;
+justify-content: center;
+align-items: center;
+    height: 60px;
+    color: #eee;
+    font-weight: bold;
+    font-size: 20px;
+}
+.container{
+    width: 70%;
+    margin-left: 15%;
+}
+.container .message{
+    padding: 10px;
+    border-radius: 4px;
+    background-color: white;
+    margin: 10px 0px;
+    text-align:center;
+}
+.container .message span{
+    font-weight: bold;
+    color: rgba(0, 128, 0, 0.698);
+}
+.container .start{
+    background-color: #009688;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 20px;
+    margin: 10px 0px;
+    padding: 15px;
+    font-weight: bold;
+}
+.container .start:hover{
+    background-color: #009688c4;
+}
+.container .the-word{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: var(--maincolor);
+    padding: 10px 0px;
+}
+.container .input{
+    width: 97%;
+    display: block;
+    margin: 5px 0px;
+    border: 3px solid var(--maincolor);
+    padding: 5px 10px;
+    border-radius: 6px;
+    text-align: center;
+    caret-color: var(--maincolor);
+    font-size: 18px; 
+}
+.container .input:focus{
+    outline: none;
+}
+.upcoming-words{
+    background-color: rgba(0, 0, 0, 0.782);
+    color: white;
+    border-radius: 4px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.upcoming-words div{
+ background-color: var(--maincolor);
+ color: white;
+ padding: 5px;
+ margin: 6px 6px ;
+ border-radius: 5px;
+ font-weight: bold;
+}
+.control{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px ;
+    background-color: white;
+    font-size: 18px;
+    padding: 10px;
+}
+.finish .good{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 15px;
+    font-size: 20px;
+    color: var(--maincolor);
+}
+.finish .bad{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 15px;
+    font-size: 20px;
+    color: red;
+}
+.level{
+    text-align: center;
+}
+.level span{
+    margin-top: 10px;
+    display: inline-block;
+    padding: 0px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.level span.active{
+    background-color: rgb(222, 33, 33);
+}
