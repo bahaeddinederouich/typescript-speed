@@ -5,9 +5,9 @@ let words = [
   "coding",
   "funny",
   "working",
-  "Dependecies",
+  "programming",
   "Task",
-  "rinner",
+  "setup",
   "roles",
 ];
 // Levels
